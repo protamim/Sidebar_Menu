@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar Menu with HTML and CSS</title>
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Symbols CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+   <!-- font awesome cdn -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    
+    <section class="home_area">
+        <input type="checkbox" id="check">
+        <div class="btn_bar">
+            <label for="check">
+                <span class="material-symbols-outlined">
+                    menu
+                    </span>
+            </label>
+        </div>
+        <div class="btn_close">
+            <label for="check">
+                <span class="material-symbols-outlined">
+                    close
+                    </span>
+            </label>
+        </div>
+        <div class="sidebar_area">
+            <div class="profile">
+                <img src="images/Profile_tamim.jpg" alt="" width="200px" class="profile_img">
+                <h5 class="profile_name">Tamim Talukdar</h5>
+                <h6 class="designation">Front-end Developer</h6>
+            </div>
+            <ul class="menu_area">
+                <li class="nav_item">
+                    <span class="material-symbols-outlined">
+                        home
+                        </span>
+                    <a href="#" class="nav_link">Home</a>
+                </li>
+                <li class="nav_item">
+                    <span class="material-symbols-outlined">
+                        dashboard
+                    </span>
+                    <a href="#" class="nav_link">My Dashboard</a>
+                </li>
+                <li class="nav_item">
+                    <span class="material-symbols-outlined">
+                        groups
+                        </span>
+                    <a href="#" class="nav_link">People</a>
+                </li>
+                <li class="nav_item">
+                    <span class="material-symbols-outlined">
+                        speed
+                        </span>
+                    <a href="#" class="nav_link">Performance</a>
+                </li>
+                <li class="nav_item">
+                    <span class="material-symbols-outlined">
+                        api
+                        </span>
+                    <a href="#" class="nav_link">Development</a>
+                </li>
+                <li class="nav_item">
+                    <span class="material-symbols-outlined">
+                        report
+                        </span>
+                    <a href="#" class="nav_link">Reports</a>
+                </li>
+                <li class="nav_item">
+                    <span class="material-symbols-outlined">
+                        shield_person
+                        </span>
+                    <a href="#" class="nav_link">Admin</a>
+                </li>
+                <li class="nav_item">
+                    <span class="material-symbols-outlined">
+                        settings
+                        </span>
+                    <a href="#" class="nav_link">Settings</a>
+                </li>
+            </ul>
+
+            <div class="social_area">
+                <a href="#" class="social_link">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#" class="social_link">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#" class="social_link">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </div>
+
+
+        </div>
+    </section>
+
+    
+</body>
+</html>
